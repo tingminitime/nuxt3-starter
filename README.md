@@ -2,11 +2,11 @@
 <img src="./public/icon-nuxt.svg" width="156" />
 </p>
 
-# Nuxt 3 Template
+# Nuxt 3 Starter
 
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/nuxt/master?color=00dc82)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/tailwindcss/master?color=0ea5e9)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/pinia/master?color=ffd859)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/%40vueuse%2Fnuxt/master?color=41b883)　![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/%40headlessui%2Fvue?color=69bdfe)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/eslint/master?color=4B32C3)
 
-This Nuxt 3 template is inspired by [antfu/vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3).
+This Nuxt 3 starter is inspired by [antfu/vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3).
 
 ## Features
 
@@ -27,8 +27,8 @@ Nuxt Modules :
 
 ## Prerequistes
 
-- Node.js >= v18.0.0
-- pnpm >= v8.0.0
+- Node.js >= v20.0.0
+- pnpm >= v10.0.0
 - [VS Code](https://code.visualstudio.com/)
 
 ### VS Code Extensions

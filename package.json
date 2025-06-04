@@ -2,7 +2,7 @@
   "name": "nuxt3-template",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.15.2",
+  "packageManager": "pnpm@10.11.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "nuxt build",
@@ -15,30 +15,27 @@
     "lint:view": "pnpm dlx eslint-flat-config-viewer",
     "typecheck": "vue-tsc --noEmit"
   },
-  "dependencies": {
-    "@headlessui/vue": "^1.7.23"
-  },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.3.0",
-    "@iconify-json/carbon": "^1.2.7",
+    "@antfu/eslint-config": "^4.13.2",
+    "@iconify-json/carbon": "^1.2.8",
     "@nuxt/devtools": "latest",
-    "@nuxt/icon": "^1.10.3",
+    "@nuxt/icon": "^1.13.0",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@pinia/nuxt": "^0.10.1",
+    "@pinia/nuxt": "^0.11.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
-    "@vueuse/nuxt": "^12.7.0",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.21.0",
+    "@vueuse/nuxt": "^13.3.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.28.0",
     "eslint-plugin-tailwindcss": "^3.18.0",
-    "nuxt": "^3.15.4",
-    "pinia": "^3.0.1",
-    "postcss": "^8.5.3",
+    "nuxt": "^3.17.5",
+    "pinia": "^3.0.2",
+    "postcss": "^8.5.4",
     "tailwindcss": "^3.4.17",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0",
-    "vue-tsc": "^2.2.4"
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1",
+    "vue-tsc": "^2.2.10"
   }
 }

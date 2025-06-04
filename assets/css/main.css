@@ -14,6 +14,6 @@
   }
 
   .my-link {
-    @apply rounded-lg hover:bg-gray-700/50 transition-all;
+    @apply rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700/50 transition-all;
   }
 }

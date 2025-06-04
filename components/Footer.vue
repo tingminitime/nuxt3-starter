@@ -26,7 +26,7 @@
       </NuxtLink>
     </li>
     <li class="flex rounded transition-all hover:bg-gray-300/50 dark:hover:bg-gray-700/50">
-      <DarkToggle class="p-1" />
+      <ThemeSwitcher class="p-1" />
     </li>
   </ul>
 

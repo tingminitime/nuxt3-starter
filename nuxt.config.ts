@@ -27,10 +27,6 @@ export default defineNuxtConfig({
     storesDirs: ['./store/**'],
   },
 
-  build: {
-    transpile: ['@headlessui/vue'],
-  },
-
   app: {
     head: {
       meta: [
@@ -39,5 +35,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-08-27',
+  compatibilityDate: '2025-06-04',
 })
