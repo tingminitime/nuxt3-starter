@@ -1,8 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Inter", var(--font-sans);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
+  html, body {
+    @apply font-display;
+  }
+
   input[type="text"]:focus {
     @apply outline-none ring-0;
   }

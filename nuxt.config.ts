@@ -1,30 +1,30 @@
-import { appDescription } from './constants/index'
+import tailwindcss from '@tailwindcss/vite'
+import { appDescription } from './app/constants/index'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
+
   modules: [
+    '@nuxt/fonts',
     '@nuxtjs/color-mode',
     '@nuxt/icon',
     '@pinia/nuxt',
     '@vueuse/nuxt',
+    '@nuxt/eslint',
   ],
+
+  css: ['~/assets/css/main.css'],
 
   postcss: {
     plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+      '@tailwindcss/postcss': {},
     },
-  },
-
-  css: ['@/assets/css/main.css'],
-
-  colorMode: {
-    classSuffix: '',
-  },
-
-  pinia: {
-    storesDirs: ['./store/**'],
   },
 
   app: {
@@ -35,5 +35,30 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2025-06-04',
+  fonts: {
+    families: [
+      {
+        name: 'Inter',
+        provider: 'google',
+        weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+        subsets: ['latin'],
+      },
+    ],
+  },
+
+  colorMode: {
+    classSuffix: '',
+  },
+
+  pinia: {
+    storesDirs: ['./app/stores/**'],
+  },
+
+  eslint: {
+    config: {
+      standalone: false,
+    },
+  },
+
+  compatibilityDate: '2025-07-31',
 })
