@@ -4,26 +4,23 @@
 
 # Nuxt 4 Starter
 
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/nuxt/master?color=00dc82)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/tailwindcss/master?color=0ea5e9)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/pinia/master?color=ffd859)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/%40vueuse%2Fnuxt/master?color=41b883)　![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/%40headlessui%2Fvue?color=69bdfe)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/eslint/master?color=4B32C3)
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/nuxt/master?color=00dc82)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/tailwindcss/master?color=0ea5e9)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/pinia/master?color=ffd859)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/%40vueuse%2Fnuxt/master?color=41b883)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt4-starter/dev/eslint/master?color=4B32C3)
 
 This Nuxt 4 starter is inspired by [antfu/vitesse-nuxt](https://github.com/antfu/vitesse-nuxt).
 
 ## Features
 
-- [Nuxt 3](https://nuxt.com/)
+- [Nuxt 4](https://nuxt.com/)
 - [ESLint](https://eslint.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
-- [tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
-- [tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
-- [tailwindcss/container-queries](https://github.com/tailwindlabs/tailwindcss-container-queries)
-- [headless UI](https://headlessui.com/)
+- [TailwindCSS v4](https://tailwindcss.com/)
 
 Nuxt Modules :
 
 - [Pinia](https://nuxt.com/modules/pinia)
 - [VueUse](https://nuxt.com/modules/vueuse)
-- [color-mode](https://nuxt.com/modules/color-mode)
+- [Nuxt Color Mode](https://nuxt.com/modules/color-mode)
+- [Nuxt Fonts](https://fonts.nuxt.com/)
+- [Nuxt Icons](https://github.com/nuxt/icon)
 
 ## Prerequistes
 
@@ -33,13 +30,15 @@ Nuxt Modules :
 
 ### VS Code Extensions
 
-- [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ## ESLint Configuration
 
-This template uses [@antfu/eslint-config](https://github.com/antfu/eslint-config).
+- [Nuxt ESLint](https://eslint.nuxt.com/)
+- [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+- [eslint-plugin-better-tailwindcss](https://github.com/schoero/eslint-plugin-better-tailwindcss)
 
 ## Development
 
