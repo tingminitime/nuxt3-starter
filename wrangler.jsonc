@@ -1,5 +1,6 @@
 {
-  "name": "nuxt4-starter-worker",
+  "name": "nuxt4-starter",
+  "main": "./.output/server/index.mjs",
   "compatibility_date": "2025-08-01",
   "assets": {
     "directory": ".output/public"
