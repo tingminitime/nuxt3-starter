@@ -3,7 +3,9 @@ const router = useRouter()
 </script>
 
 <template>
-  <main class="flex flex-col items-center gap-y-4 text-gray-600 dark:text-gray-400">
+  <main
+    class="flex flex-col items-center gap-y-4 text-gray-600 dark:text-gray-400"
+  >
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
