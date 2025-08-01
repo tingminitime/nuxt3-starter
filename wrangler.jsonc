@@ -1,0 +1,7 @@
+{
+  "name": "nuxt4-starter-worker",
+  "compatibility_date": "2025-08-01",
+  "assets": {
+    "directory": ".output/public"
+  }
+}
