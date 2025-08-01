@@ -35,15 +35,9 @@ export default defineNuxtConfig({
     },
   },
 
-  fonts: {
-    families: [
-      {
-        name: 'Inter',
-        provider: 'google',
-        weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-        subsets: ['latin'],
-      },
-    ],
+  icon: {
+    mode: 'css',
+    cssLayer: 'base', // for TailwindCSS v4
   },
 
   colorMode: {

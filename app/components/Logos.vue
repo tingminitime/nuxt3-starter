@@ -16,7 +16,7 @@
       >
       <span
         class="text-green-500"
-      >Nuxt 3</span>
+      >Nuxt 4</span>
     </NuxtLink>
     <NuxtLink
       class="my-link flex flex-col items-center px-4 py-2"

@@ -15,7 +15,7 @@ definePageMeta({
 
 <template>
   <div class="flex flex-col items-center">
-    <div class="mb-3 animate-[wiggle_1s_ease-in-out_infinite] text-yellow-400">
+    <div class="mb-3 animate-wiggle text-yellow-400">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="48"
@@ -46,7 +46,11 @@ definePageMeta({
             :key="otherName"
           >
             <NuxtLink
-              class="rounded bg-gray-200 px-2 py-1 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700"
+              class="
+                rounded bg-gray-200 px-2 py-1
+                hover:bg-gray-300
+                dark:bg-gray-600 dark:hover:bg-gray-700
+              "
               :to="`/hi/${otherName}`"
               replace
             >

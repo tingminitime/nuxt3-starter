@@ -40,35 +40,35 @@ export default withNuxt(
       ],
     },
     /* From the second arguments they are ESLint Flat Configs */
-    {
-      // @see: https://github.com/schoero/eslint-plugin-better-tailwindcss?tab=readme-ov-file#rules
-      plugins: {
-        'better-tailwindcss': eslintPluginBetterTailwindcss,
-      },
-      rules: {
-        ...eslintPluginBetterTailwindcss.configs['recommended-warn'].rules,
-        'better-tailwindcss/enforce-consistent-line-wrapping': [
-          'warn',
-          {
-            group: 'newLine',
-            preferSingleLine: true,
-            printWidth: 80,
-          },
-        ],
-        'better-tailwindcss/no-unregistered-classes': [
-          'warn',
-          {
-            detectComponentClasses: true,
-          },
-        ],
-      },
-      settings: {
-        'better-tailwindcss': {
-          entryPoint: './app/assets/css/main.css',
+  ),
+  {
+    // @see: https://github.com/schoero/eslint-plugin-better-tailwindcss?tab=readme-ov-file#rules
+    plugins: {
+      'better-tailwindcss': eslintPluginBetterTailwindcss,
+    },
+    rules: {
+      ...eslintPluginBetterTailwindcss.configs['recommended-warn'].rules,
+      'better-tailwindcss/enforce-consistent-line-wrapping': [
+        'warn',
+        {
+          group: 'newLine',
+          preferSingleLine: true,
+          printWidth: 80,
         },
+      ],
+      'better-tailwindcss/no-unregistered-classes': [
+        'warn',
+        {
+          detectComponentClasses: true,
+        },
+      ],
+    },
+    settings: {
+      'better-tailwindcss': {
+        entryPoint: './app/assets/css/main.css',
       },
     },
-  ),
+  },
   {
     rules: {
       'vue/no-multiple-template-root': 'off',

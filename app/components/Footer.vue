@@ -54,7 +54,7 @@
     class="mt-3 text-sm text-gray-700 dark:text-gray-300"
   >
     <em>
-      This Vue 3 template is inspired by
+      This Nuxt 4 starter is inspired by
       <NuxtLink
         href="https://github.com/antfu/vitesse-nuxt"
         target="_blank"

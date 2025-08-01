@@ -9,7 +9,7 @@ const { increment, decrement } = counterStore
   <div class="flex items-center justify-center gap-x-4">
     <button
       type="button"
-      class="inline-block rounded-full bg-teal-600 hover:bg-teal-700"
+      class="inline-block rounded-full bg-teal-600 text-white hover:bg-teal-700"
       @click="decrement"
     >
       <svg
@@ -27,7 +27,7 @@ const { increment, decrement } = counterStore
     </div>
     <button
       type="button"
-      class="inline-block rounded-full bg-teal-600 hover:bg-teal-700"
+      class="inline-block rounded-full bg-teal-600 text-white hover:bg-teal-700"
       @click="increment"
     >
       <svg
